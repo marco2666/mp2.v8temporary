@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/about.css">
+    <!-- FABICON -->
+    <link rel="icon" type="image" href="images/icon.png">
+    <!-- GOOGLE FONTS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lato:wght@700&family=Paytone+One&display=swap" rel="stylesheet"> -->
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container-fluid">
+            <div class="mx-auto">
+                <a href="index.html">
+                <img src="images/18.png" class="ms-4" style="width: 120px; height: 90px;">
+                <!-- <a class="navbar-brand mx-auto" href="#" style="color: #E4D4B5; font-size: 27px;"><b>Funlasang Pinoy</b></a> -->
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" style="color: #af8430" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="about.html" role="button">
+                        About
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Food History & Recipes</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="menu.html" role="button" >
+                        Our Menu
+                        </a>
+                         <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                            <li><a class="dropdown-item" href="#">Lunch</a></li>
+                            <li><a class="dropdown-item" href="#">Dinner</a></li>
+                        </ul>  -->
+                    </li>
+                    <!-- <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" aria-current="page" href="order.html">Order</a>
+                    </li> -->
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="contact.html" role="button">
+                        Contact
+                        </a>
+                        <!-- <ul class="dropdown-menu" style="background-color:  #022337;">
+                            <li><a class="dropdown-item" href="#">Form</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li> 
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="place-order" class="nav-link" href="order.html">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3176/3176397.png" class="mx-2" style="height: 40px; width: 40px;">
+                            <p id="cartlength" class="d-inline-block" ><b>0</b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="login.html">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4018/4018431.png" class="mx-2" style="height: 40px; width: 40px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <br><br> 
+
+    <!-- POP UP AD -->
+    <!-- <div class="popup container col-md-4 p-3">
+        <button id="close">&times;</button>
+        <p1 class="ad-text p-3">Free Delivery</p1>
+        <p>For orders above 800 PHP</p>
+        <a class="ad-btn p-2" href="menu.html">SHOP</a>
+    </div> -->
+
+    <!-- BANNER -->
+    <div class="banner1 container-fluid" style="margin-top: -500px;">
+        <div class="carousel-caption d-md-block animate__animated animate__fadeInUp" >
+            <!-- <h1 class=" title1" >Contact <span style="color: rgb(247, 243, 230)">Us</span></h1> -->
+            <h1 class=" title1 mt-3 text-center" >About Us</h1>
+            <hr id="line1" class="w-50 my-auto mx-auto">
+            <!-- <hr id="line1" class="ms-3" style="width: 200px;"> -->
+            <p class="caption1 fs-2 text-center">Listen to our stories. Our food and our culture.</p>    
+        </div> 
+    </div>
+
+    <!-- HISTORY -->
+    <div class="container-fluid p-5" style="background-color: #f1ddb1;">
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <div id="carouselExampleAutoplaying" class="carousel side carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded-4">
+                        <div class="carousel-item active" data-bs-interval="8000">
+                            <img src="https://thumbs.dreamstime.com/b/bistek-tagalog-bistec-encebollado-black-plate-slate-table-top-filipino-spanish-cuisine-beef-steak-onion-dark-view-201757604.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
+                           
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="https://cdn.create.vista.com/api/media/small/379073704/stock-photo-filipino-chicken-adobo-dark-gray-plate-black-slate-backdrop-chicken" class="d-block w-100"style="object-fit: cover" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="https://cdn.create.vista.com/api/media/small/379200152/stock-photo-sinigang-baboy-filipino-pork-meat-soup-black-bowl-dark-slate" class="d-block w-100" style="object-fit: cover" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-3 text-center mt-5">
+                <h2 class="title2">Our History</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quos tenetur quibusdam incidunt inventore repellendus sequi dolor ipsum nihil officiis repudiandae corrupti autem aperiam tempore sint enim cum eius distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit.  Quis facere atque ab quaerat cupiditate consectetur voluptatem!</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- WHO -->
+    <div class="container p-3" style="background-color: #f0f1f2;">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="title3">Who Are We</h2><br>
+                <h4>Everything You Need To Know</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="who-we col-md-4">
+                <img src="https://images.pexels.com/photos/9606138/pexels-photo-9606138.jpeg?auto=compress&cs=tinysrgb&w=600" >
+                <h5 class="my-4" ><b>Our Ingredients</b></h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et assumenda cum tenetur, eveniet beatae nemo perspiciatis aliquid corrupti quibusdam sit, aliquam voluptatibus quis iusto minus a asperiores, ex corporis iure.</p>
+            </div>
+            <div class="who-we col-md-4">
+                <img src="https://images.pexels.com/photos/18426990/pexels-photo-18426990/free-photo-of-close-up-of-a-dish-with-chili-peppers.jpeg?auto=compress&cs=tinysrgb&w=600" >
+                <h5 class="my-4" ><b>Visionary and Thinking</b></h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et assumenda cum tenetur, eveniet beatae nemo perspiciatis aliquid corrupti quibusdam sit, aliquam voluptatibus quis iusto minus a asperiores, ex corporis iure.</p>
+            </div>
+            <div class="who-we col-md-4">
+                <img src="https://uploads-ssl.webflow.com/5e182252b1025a15c98521cb/5fb62054e3262ae4409f8191_Vol7-Portraits_of_a_Chef-7726.jpg">
+                <h5 class="my-4" ><b>Leaders of Tomorrow</b></h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et assumenda cum tenetur, eveniet beatae nemo perspiciatis aliquid corrupti quibusdam sit, aliquam voluptatibus quis iusto minus a asperiores, ex corporis iure.</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <h2 class="title3 text-center" style="color: #5ea9d8">Food Facts</h2><br>
+    <!-- FOOD FACTS -->
+    <div class="food-facts container-fluid p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 p-4 food-facts-inner"style="background-color:  #f1ddb1;">
+                    <h5 class="mt-3"><b>Adobo</b></h5>
+                    <p>The word adobo is derived from the Spanish word adobar, which means “marinade” or “pickling sauce.”</p>
+                </div>
+                <div class="img-col1 col-md-3 text-center my-auto">
+                    <img src="https://www.seriouseats.com/thmb/uc8nb040OwgXekR9obuhEqm8WoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg" class="img-responsive rounded-3" width="100%">
+                </div>
+                <div class="col-md-3 p-4 food-facts-inner" style="background-color: #83b9ebe4;">
+                    <h5 class="mt-3"><b>Kare-Kare</b></h5>
+                    <p>Kare-kare is a Philippine stew (kare derives from "curry") that features a thick savory peanut sauce.</p>
+                </div>
+                <div class="img-col1 col-md-3 text-center my-auto">
+                    <img src="https://assets.unileversolutions.com/v1/85775930.jpg" class="img-responsive rounded-3" width="100%">
+                </div>
+            </div>
+            <br>
+
+            <div class="row no-gutter mt-2">
+                <div class="img-col1 col-md-3 text-center my-auto">
+                    <img src="https://assets.unileversolutions.com/recipes-v2/214403.jpg" class="img-responsive rounded-3" width="101%">
+                </div>
+                <div class="col-md-3 p-4 food-facts-inner" style="background-color: #83b9ebe4;">
+                    <h5 class="mt-3"><b>Sinigang</b></h5>
+                    <p>The reason why it is called “sinigang” is that it was a translation to the English word, “stew.”</p>
+                </div>
+                <div class="img-col1 col-md-3 text-center my-auto">
+                    <img src="https://i0.wp.com/whattoeatph.com/wp-content/uploads/2022/02/DSC_7941.jpg?resize=720%2C576&ssl=1" class="img-responsive rounded-3" width="100%">
+                </div>
+                <div class="col-md-3 p-4 food-facts-inner" style="background-color: #f1ddb1;">
+                    <h5 class="mt-3"><b>Bulalo</b></h5>
+                    <p>Bulalo is native to the Southern Luzon region, particularly in the provinces of Batangas and Cavite.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- TESTIMONIALS -->
+    <div class="container">
+        <h2 class="title3 text-center">Customer Testimonials</h2><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum ipsa porro officia eveniet consequatur illo earum commodi iusto, nobis laboriosam consectetur tempora dolores esse sint eius. Minima eos quibusdam ratione!</p>
+        <br>        
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <div class="card-image ">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="description">"Love your food!" -Kacy</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <div class="card-image ">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="description">"Love your food!" -Kacy</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <div class="card-image ">
+                            <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p class="description">"Love your food!" -Kacy</p>
+                    </div>
+                </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image ">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="description">"Love your food!" -Kacy</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image ">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="description">"Love your food!" -Kacy</p>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                    <div class="card-image ">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="card-img img-responsive"> 
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="description">"Love your food!" -Kacy</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+    <br><br><br><br>
+
+    <!-- <div class="container-fluid bg-primary p-4 swiper mySwiper">
+        <div class="cardz_content text-center swiper-wrapper">
+
+            <div class="cardz text-center p-3 bg-warning m-2 swiper-slide">
+                <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="m-5"> 
+                <div class="cardz_title my-4">
+                    <p>"Love your food! - Kacy"</p>
+                </div>
+            </div>
+
+            <div class="cardz text-center p-3 bg-warning m-2 swiper-slide">
+                <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="m-5"> 
+                <div class="cardz_title my-4">
+                    <p>"Love your food! - Kacy"</p>
+                </div>
+            </div>
+
+            <div class="cardz text-center p-3 bg-warning m-2 swiper-slide">
+                <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="m-5"> 
+                <div class="cardz_title my-4">
+                    <p>"Love your food! - Kacy"</p>
+                </div>
+            </div>
+
+            <div class="cardz text-center p-3 bg-warning m-2 swiper-slide">
+                <img src="https://cdn-icons-png.flaticon.com/128/9789/9789319.png" alt="" class="m-5"> 
+                <div class="cardz_title my-4">
+                    <p>"Love your food! - Kacy"</p>
+                </div>
+            </div>
+
+
+            
+        </div>
+        
+    </div> -->
+
+
+    <!-- MISSION -->
+    <div class="container-fluid bg-overlay2 d-flex align-items-center justify-content-center">
+        <div class="row text-center mx-auto my-auto" style="float: center; ">
+            <h3 class="mt-4">"To inspire and nurture our Filipino heritage – one person, one plate and one neighborhood at a time.”<br></h3>
+            <!-- <p class="fs-5">Join today and start getting fresh produce at an affordable price.</p>
+            <br>
+            <a class="btn btn-outline-success" style="background-color: rgba(241, 241, 241, 0.989); width: 150px;" href="registration.html" role="button">Link</a> -->
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer container-fluid" style="color: #e4d4b5;">
+        <div class="row p-2">
+            <div class="col-md-4 mt-4">
+                <a href="index.html"><img src="images/18.png" class="mx-auto my-3 d-flex align-items-center" style="width: 220px; height: 170px;"></a> 
+            </div>
+        
+            <div class="col-md-4 mt-3">
+                <ul class="ms-5 ps-5 mx-auto m-3">
+                    <li><a href="index.html"  class="quicklinks text-decoration-none"> Home</a></li>
+                    <br>
+                    <li><a href="about.html" class="quicklinks text-decoration-none"> About</a></li>
+                    <br>
+                    <!-- <li><a href="ourpartners.html" class="quicklinks text-decoration-none"> Food History/Recipes</a></li>
+                    <br> -->
+                    <li><a href="menu.html" class="quicklinks text-decoration-none"> Our Menu</a></li>
+                    <br>
+                    <li><a href="order.html" class="quicklinks text-decoration-none"> Order</a></li>
+                    <br>
+                    <li><a href="contact.html" class="quicklinks text-decoration-none"> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <ul class="ms-2 mt-3">
+                    <li><img class="me-2" style="height: 28px; width: 28px;" src="https://cdn-icons-png.flaticon.com/128/10831/10831906.png">
+                        <a href="#" class="quicklinks text-decoration-none">B12-L34 ABCD Street, Metro Manila </a></li><br>
+                    <li><img class="me-2" style="height: 28px; width: 28px" src="https://cdn-icons-png.flaticon.com/128/10525/10525324.png">
+                    <a href="#" class="quicklinks text-decoration-none">+63 123 456 7890</a></li><br>
+                    <li><img class="me-2" style="height: 28px; width: 28px" src="https://cdn-icons-png.flaticon.com/128/10828/10828619.png">
+                    <a href="#" class="quicklinks text-decoration-none">Email Us</a></li>
+                </ul>
+                <br>
+                <!-- <div class="ms-5 ps-2">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/4406/4406253.png" class="me-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1959/1959255.png" class="mx-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2875/2875352.png" class="ms-2" style="height: 33px; width: 33px;"></a>
+                </div> -->
+                <!-- <div class="ms-5 ps-2">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/3771/3771557.png" class="me-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/8392/8392180.png" class="mx-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2274/2274336.png" class="ms-2" style="height: 33px; width: 33px;"></a>
+                </div> -->
+                <div class="ms-4 ps-2" style="margin-left: 30px!important;">
+                    <a href="#"><img src="images/ig.png" class="me-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="images/fb.png" class="mx-2" style="height: 33px; width: 33px;"></a>
+                    <a href="#"><img src="images/utube.png" class="ms-2" style="height: 33px; width: 33px;"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mt-2" style="color: #f0f0f48d; font-size: 13px;"> © All rights go to their respectful owners. </p> 
+                <!-- <p style="color: #e4d4b58e; font-size: 13px;"><u>Privacy Policy</u> │ <u>Refund Policy</u> │ <u>Shipping Policy</u> │ <u>Terms of Service </u></p> -->
+            </div>
+        </div>
+    </div>
+
+
+
+ 
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 id="message">
+                    Hii! GeeksforGeeks people
+                </h1>
+                <img id="myImage" src="https://cdn-icons-png.flaticon.com/128/8065/8065294.png">
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <div class="button">
+        <button class="btn btn-warning" onclick="before();">
+            Before
+        </button>
+        <button class="btn btn-success" onclick="afterr();">
+            Afterr
+        </button>
+    </div>
+
+   
+        <img src="https://cdn-icons-png.flaticon.com/128/8065/8065279.png" id="slide" onclick="nextslide()">
+        <button class="btn btn-warning" onclick="nextslide();">
+            next
+        </button>
+        <button class="btn btn-warning" onclick="beforeslide();">
+            before
+        </button>
+
+
+
+
+
+        <img src="http://placekitten.com/500/200" id="image" style="height:150px; width:150px" />
+        <input type="button" value="Prev" name="previous_picture" onclick= nextImage();>
+        <input type="button" value="Next" name="next_picture" onclick= prevImage();/> -->
+
+
+    <!-- <div class="container-fluid p-4 text-center bg-warning">
+        <h1>ABOUT US</h1>
+    </div>
+
+
+    <div id="carouselExampleAutoplaying" class="carousel side carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="6000">
+            <img src="https://cdn.pixabay.com/photo/2022/09/15/21/17/lumpia-7457323_1280.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
+            <div class="carousel-caption d-md-block">
+                <h2>Welcome to Our Restaurant</h2>
+                <p class="fs-5"></p>
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="6000">
+            <img src="https://cdn.pixabay.com/photo/2022/09/15/21/17/lumpia-7457323_1280.jpg" class="d-block w-100"style="object-fit: cover" alt="...">
+            <div class="carousel-caption d-md-block">
+             
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="6000">
+            <img src="https://cdn.pixabay.com/photo/2022/09/15/21/17/lumpia-7457323_1280.jpg" class="d-block w-100" style="object-fit: cover" alt="...">
+            <div class="carousel-caption d-md-block">
+               </div>
+          </div>
+        </div>
+    </div>  
+    <br>
+
+
+    <div class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-md-6 bg-dark">
+                pics
+            </div>
+            <div class="col-md-6 bg-primary">
+                <h3>WELCOME TO OUR RESTAURANT</h3>
+                <h5>Our History</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, quos tenetur quibusdam incidunt inventore repellendus sequi dolor ipsum nihil officiis repudiandae corrupti autem aperiam tempore sint enim cum eius distinctio!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 bg-danger text-center">
+                <h3 class="text-center">Our Specialties</h3>
+                <div class="card d-inline-block" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.ladyschoice.com.ph/content/dam/brands/lady_s_choice/philippines/1562946-abakadaoffilipinofood-thumb.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card d-inline-block" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.ladyschoice.com.ph/content/dam/brands/lady_s_choice/philippines/1562946-abakadaoffilipinofood-thumb.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card d-inline-block" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.ladyschoice.com.ph/content/dam/brands/lady_s_choice/philippines/1562946-abakadaoffilipinofood-thumb.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card d-inline-block" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.ladyschoice.com.ph/content/dam/brands/lady_s_choice/philippines/1562946-abakadaoffilipinofood-thumb.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> 
+
+
+
+
+
+    <script>
+        function showImg( id ) {
+            
+                for ( i = 1; i < 10; i++) {
+                    var obj = document.getElementById( "picture" + i );
+                    if (obj != null)
+                        obj.className = "hide";
+                }
+                var obj = document.getElementById( "picture" + id );      
+                if (obj != null)
+                    obj.className = "show";
+        }
+        </script>
+        
+        <style>
+            .show{display:block;}
+            .hide{display:none;}
+        </style>
+        
+        <p>My favorite Beers!</p>
+        
+        <img id="picture1" src="https://www.ladyschoice.com.ph/content/dam/brands/lady_s_choice/philippines/1562946-abakadaoffilipinofood-thumb.jpg" title="1" class="hide">
+        <input type="button" onclick="showImg(1);" value="Lost And Found" >
+        
+        <img id="picture2" src="https://cdn.pixabay.com/photo/2022/09/15/21/17/lumpia-7457323_1280.jpg" title="2" class="hide">
+        <input type="button" onclick="showImg(2);" value="Green Tea IPA">
+        
+        <img id="picture3" src="belching beaver.jpg" title="3" class="hide">
+        <input type="button" onclick="showImg(3);" value= "Belching Beaver">
+        
+        <img id="picture4" src="boardwalk_insta.jpg" title="4" class="hide">
+        <input type="button" onclick = "showImg(4)" value= "Karl Strauss">
+        
+        <img id="picture5" src="el conquistador epa.jpg" title="5" class="hide">
+        <input type="button" onclick = "showImg(5)" value= "Mission Brewery">
+        
+        <img id="picture6" src="fallbrook.png" class="hide">
+        <input type="button" onclick = "showImg(6)" value= "Fallbrook Brewery">
+        
+        <img id="picture7" src='gordon biersch golden ale.jpg' class="hide">
+        <input type="button" onclick = "showImg(7)" value= "Gordon Biersch"> -->
+
+
+
+        
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="js/about.js"></script>
+</body>
+</html>

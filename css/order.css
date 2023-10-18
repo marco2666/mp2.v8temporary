@@ -1,0 +1,586 @@
+
+body{
+    overflow-x: hidden;
+    background-color: #faf6f6!important;
+    /* background-color:  #f2f1f0!important; */
+}
+
+html{ 
+    scroll-behavior: smooth;;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+/* START NAVBAR */
+.navbar{
+    background: #51a2d4; 
+    /* background: #057AC2; */
+    /* background: #E4D4B5; */
+    /* background-image: url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-frost.png');
+    background-size: cover; */
+    width: 100%!important;
+    padding: 9px!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link:hover{
+    font-weight: bold;
+    color:rgba(240, 228, 228, 0.896)!important;
+  }
+  
+  .nav-link:after{
+    content: "";
+    position:absolute;
+    border-bottom: 5px solid rgba(243, 235, 235, 0.867);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover:after{
+    width: 100%;
+  }
+  
+  .navbar-nav li a{
+    /* color: #042856!important; */
+    color: #000e25e0!important;
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: 400;
+    /* text-shadow: 2px 2px  #b11e0ddd; */
+  }
+  
+  /* .dropdown-menu{
+    background-color: #022337!important;
+  }
+  
+  .dropdown-menu li a:hover{
+    background-color: rgb(103, 129, 160)!important;
+  } */
+  
+  @media all and (min-width: 992px){
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  }
+  /* END NAVBAR */
+
+/* START FOOTER */
+#footer{
+  background: #51a2d4;
+  /* background: #057AC2; */
+  /* background-image: url('images/7.png');  */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  background-size: cover;
+}
+
+.quicklinks{
+  color: #e9e6f4;
+}
+
+#footer li{
+  display: block;
+}
+
+.quicklinks:hover{
+  font-weight: bold;
+  color: rgba(35, 80, 171, 0.856);
+  
+}
+/* END FOOTER */
+
+.order-title{
+    font-weight: 700;
+    color: #2873a1;
+}
+
+
+/*  PROMO CODE BANNER */
+
+.footer-btn{
+    background-color: #5ea9d8!important;
+    padding: 10px;
+    width: 200px;
+    border: 0!important;
+}
+
+.footer-btn:hover{
+    background-color: #e9ae5b!important;
+    transform:scale(1.1);
+    color: white;
+}
+
+.promo-code{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.banner-code{
+    background: rgba(69, 134, 204, 0.974);
+    background-image: url(../images/19.png);
+    background-image: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.percent{
+    font-size: 5rem;
+}
+
+
+/* # OF ITEMS (navbar) */
+nav #cartlength{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: large;
+  background-color: rgba(86, 176, 222, 0.91);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* PAGINATION */
+.content {
+  display: none;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+} 
+
+.pagination .page {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+  background-color: rgb(243, 222, 191);
+  border: none;
+}
+
+.page.active {
+  background-color: rgb(180, 217, 241); 
+}
+
+.page-next1{
+  border-radius: 20px!important;
+  background-color: rgb(243, 222, 191)!important;
+  border: none !important;
+  padding: 1rem!important;
+} 
+
+.page-next2{
+  border-radius: 20px!important;
+  background-color: rgb(243, 222, 191)!important;
+  border: none !important;
+} 
+
+/* PAG DISPLAY */
+.hidden {
+  display: none;
+}
+
+/* DROPDOWN */
+#dropdown{
+  border-radius: 40px;
+  padding: 0.5rem!important;
+  background-color:rgb(226, 238, 245);
+} 
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid #333;
+  font-family: inherit;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+}
+
+#div1{
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  padding: 0.5rem;
+  /* box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2); */
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.3s;
+}
+
+#div2{
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  padding: 0.5rem;
+  /* box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2); */
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.3s;
+}
+
+
+.card-header{
+  background-color: transparent!important;
+  /* background-color: #c6e4f4f5!important; */
+}
+
+.deliv-icon{
+  color: #e97878;
+  font-size: 1.2rem;
+}
+
+.deliv-btn{
+   background-color: rgb(251, 253, 255)!important;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.pick-sched{
+  background-color: rgb(251, 253, 255)!important;
+}
+
+.pickup-time{
+  padding: 2rem!important;
+}
+
+.payment-box{
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  padding: 0.5rem;
+  /* box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2); */
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.3s;
+}
+
+#order-summary {
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.5s;
+ 
+}
+
+
+/* DISPLAY OF ORDER SUM IN JS */
+.item {
+  padding: 10px 5px;
+  display: flex;
+}
+ 
+.buttons {
+  position: relative;
+  padding-top: 30px; 
+  margin-right: 40px;
+}
+
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background:  no-repeat center;
+}
+ 
+.description {
+  padding-top: 2.2rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+.quantity {
+  padding-top: 20px;
+  margin-right: 10px;
+}
+
+.quantity input {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button:focus,
+input:focus {
+  outline: none!important;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 47px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+.quantity {
+  display: flex;
+  align-items: center; 
+  padding-top: 5px;
+} 
+
+.quantity button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.plus-btn {
+  margin-left: 5px; 
+  border: 0!important;
+
+}
+
+.minus-btn{
+  margin-right: 5px; 
+  border: 0!important;
+  
+}
+
+.inpt-value{
+  padding: 2px;
+  border-radius: 30px;
+}
+
+.delete-btn{
+  border: 0;
+
+}
+
+.apply-btn{
+  overflow: hidden!important;
+}
+.img-sum{
+  border-radius: 50px;
+}
+
+.minus-btn:hover{
+  background-color: #e1d0a600!important;
+  color: black!important;
+  text-decoration: underline!important;
+}
+
+.plus-btn:hover{
+  background-color: #e1d0a600!important;
+  color: black!important;
+  text-decoration: underline!important;
+}
+
+@media (max-width: 1100px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  
+  .image,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 2px 0;
+  }
+
+  .delete-btn {
+    width: 18px;
+    height: 17px;
+    background:  no-repeat center;
+    border: 0;
+  }
+ 
+  .total-price {
+    width: 83px;
+    padding-top: 2.7rem;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+  .quantity {
+    padding-top: 2.8rem!important;
+    margin-right: 200px;
+  }
+ 
+} 
+
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 2px 0;
+  }
+
+  .delete-btn {
+    width: 18px;
+    height: 17px;
+    background:  no-repeat center;
+    border: 0;
+  }
+ 
+  .total-price {
+    width: 83px;
+    padding-top: 2.7rem;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+  }
+  .quantity {
+    padding-top: 2.5rem!important;
+    margin-right: 200px;
+  }
+
+} 
+
+
+/* CONTENT 3 */
+#review{
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  padding: 1rem;
+  /* box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2); */
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.3s;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+#cardCheckout{
+  width: 50px;
+}
+
+
+
+
+/* PAGINATION# TESTING */
+/* #btn-acc{
+  background-color: #4f7fac;
+  color: white;
+  font-weight: 600;
+  border-radius: 300px;
+ 
+}
+
+#btn-acc:hover{
+  background-color: rgb(237, 147, 105);
+  font-weight: bold;
+  transform:scale(1.02);
+ 
+  
+}
+
+.box-container{
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgb(226, 238, 245)!important;
+  border-radius: 10px;
+  box-shadow: 9px 10px  rgba(235, 193, 120, 0.426);
+  transition: 0.3s;
+}
+
+.back-img{
+  position: relative;
+  width: 100%;
+  height: 440px;
+  background: url(../images/map.png);
+  background-size:500px;
+  margin: 0;
+} */
+
+
+#myModal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(77, 77, 56, 0.215); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(239, 235, 231)!important;
+  margin: 5% auto; 
+  padding: 30px;
+  border: 1px solid #888;
+  max-width: 350px;
+  padding-top: 1rem;
+}
+
+/* The Close Button */
+.close {
+  color: #d1be15;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(130, 160, 223);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .modal-popup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+} */
+
+.modal-content .hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.thanks-btn {
+  background-color: #aecde0!important;
+}

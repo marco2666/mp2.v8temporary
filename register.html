@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+     <!-- CSS -->
+     <link rel="stylesheet" href="css/forgot.css">
+     <!-- FABICON -->
+     <link rel="icon" type="image" href="images/icon.png">
+     <!-- ICONS -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!-- GOOGLE FONTS -->
+     
+     <!-- ANIMATION -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- FORM -->
+    <div class="box-container2" style="background-color: rgb(226, 216, 209);">
+        <div class="container text-center mt-3">
+            <a href="index.html">
+            <img src="images/18.png" style="width: 170px; height: 140px;"></a>
+        </div>
+
+        <form class="login_form mt-4 pt-2" method="get" name="form" onsubmit="return checkForm();">
+            <h2 id="header1" class="mt-2">Registration</h2><br>
+            <div class="form-group text-center">
+                <div class="input-box">
+                    <i class='bx bxs-user mt-3' style="text-indent: 60px;"></i>
+                    <input id="email" autocomplete="off" type="email" name="email"  placeholder="Email" required style="color:rgb(15, 33, 104); font-weight: 600;">
+                </div>
+                <br><br>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt mt-3' style="text-indent: 60px;"  ></i>
+                    <input id="newP" autocomplete="off" type="email" name="email"  placeholder="New Password *" required style="color:rgb(15, 33, 104); font-weight: 600;">
+                </div>
+                <br><br>
+
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt mt-3' style="text-indent: 60px;"  ></i>
+                    <input id="confirmP" type="password" name="password" placeholder="Confirm Password *"  autocomplete="off"  required style="color:rgb(15, 33, 104); font-weight: 600;">
+                </div>
+
+                <div class="form-check d-inline-block mt-4">
+                    <!-- <input class="form-check-input mx-2" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label text-muted ms-1" style="font-size: 14px;" for="flexCheckDefault">
+                      I read and agree to <a href="#" style="color: rgb(61, 54, 159);">Terms & Conditions</a>
+                    </label> -->
+                    <div class="text-muted" style="font-size: 14px;">
+                        Already have an account? Sign in <a href="login.html" style="color: rgb(61, 54, 159);">here</a>
+                    </div>
+
+                </div>
+    
+                <br>
+                <button id="login-btn" class="btn p-2 mt-4" type="submit" onclick="checkForm()"><b>Create Account</b></button>      
+            </div>
+        </form>
+        <br><br>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        
+        function checkForm() {
+        let newpassword = document.getElementById('newP').value;
+        let confirmpassword = document.getElementById('confirmP').value;
+            if (newpassword == null || confirmpassword == "") {
+                alert('⚠️ Please fill all the required fields.⚠️');
+                return false;
+            }
+            else if (newpassword != confirmpassword) {
+                alert('Passwords do not match.');
+            }
+            
+            if(newpassword == confirmpassword){
+                alert('You have successfully created your account. Please login and enjoy FUNLASANG PINOY!');
+                window.location.href = "login.html" ;
+            }
+        }
+    
+    </script>
+
+</body>
+</html>
